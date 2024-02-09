@@ -1,0 +1,17 @@
+primer paso: hacer el json, instalar dependencias
+	*inp init
+	*mongoose
+	*express
+	*dotenv -> variables de entorna (para no tener string de conexion en el codigo)
+	*cors ->políticas de acceso al server(seguridad)
+	*helmet -> Seguridad del servidor 
+	*morgan -> manejo de los 
+	*bcrypt encriptar contraseñas
+	*jsonwebtoken manejo de sesiones de token 
+	
+Depedencias de desarrollo 
+nodemon = npm i nodemon -D
+Es como un live server, cada vez que hay cambios reinicia el servidor
+
+
+npm run dev
