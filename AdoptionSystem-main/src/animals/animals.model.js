@@ -23,8 +23,8 @@ const animalSchema = mongoose.Schema({
         type: String,
         minLength: 1
     },
-    keeper: {
-        
-    }
+  
+    
 
 })
+export default mongoose.model('animal', animalSchema)
